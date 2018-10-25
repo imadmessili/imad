@@ -1,4 +1,14 @@
-
+.home-thumb h2
+{
+	padding-top: 100px;
+} 
+.bg-dark,
+.bg-white,
+.bg-yellow
+{
+	min-height: 450px;
+	max-height: 500px;
+}
 
 
 @media(max-width: 800px)
