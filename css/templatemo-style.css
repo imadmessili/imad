@@ -1,14 +1,6 @@
-/*
-
-Stimulus Template
-
-http://www.templatemo.com/tm-498-stimulus
-
-*/
-
 body {
-	background: #ffffff;
-    font-family: 'Source Sans Pro', sans-serif;
+  background: #ffffff;
+    font-family: 'Georgia','Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: normal;
     overflow-x: hidden;
@@ -250,12 +242,12 @@ a:hover, a:active, a:focus {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   margin-top: -10px;
   margin-left: -10px;
   border-radius: 50%;
-  border: 5px solid #E3AE57;
+  border: 2px solid #E3AE57;
   border-top-color: #f9f9f9;
   animation: spinner .6s linear infinite;
 }
@@ -290,7 +282,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .navbar-brand {
     color: #333;
-	text-shadow: 1px 1px #fff;
+  text-shadow: 1px 1px #fff;
     font-weight: bold;
     font-size: 24px;
     line-height: 35px;
@@ -300,15 +292,11 @@ a:hover, a:active, a:focus {
 .custom-navbar .nav li a {
     color: #333;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
     line-height: 40px;
     transition: all 0.4s ease-in-out;
-<<<<<<< HEAD
-    float: left;
-=======
->>>>>>> parent of bbb2388... 26/10/2018/13/50
 }
 
 .custom-navbar .nav li a:hover {
@@ -533,6 +521,16 @@ a:hover, a:active, a:focus {
   padding-top: 32px;
 }
 
+.contact ul li
+{
+  width: 100%;
+  list-style: none;
+  display: inline;
+  margin: auto;
+  padding: 0 30px 0 30px;
+  text-align: center; 
+}
+
 
 /*---------------------------------------
     Contact section              
@@ -610,10 +608,6 @@ a:hover, a:active, a:focus {
 footer {
     padding: 50px 0px;
     height: 200px;
-}
-
-footer p {
-  color: #666;
 }
 
 
