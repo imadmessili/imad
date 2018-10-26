@@ -305,7 +305,7 @@ a:hover, a:active, a:focus {
     text-transform: uppercase;
     line-height: 40px;
     transition: all 0.4s ease-in-out;
-    float: right;
+    float: left;
 }
 
 .custom-navbar .nav li a:hover {
