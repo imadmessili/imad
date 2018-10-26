@@ -8,7 +8,7 @@ http://www.templatemo.com/tm-498-stimulus
 
 body {
 	background: #ffffff;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Georgia','Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: normal;
     overflow-x: hidden;
@@ -250,12 +250,12 @@ a:hover, a:active, a:focus {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   margin-top: -10px;
   margin-left: -10px;
   border-radius: 50%;
-  border: 5px solid #E3AE57;
+  border: 2px solid #E3AE57;
   border-top-color: #f9f9f9;
   animation: spinner .6s linear infinite;
 }
@@ -299,27 +299,31 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li a {
     color: #333;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
     line-height: 40px;
     transition: all 0.4s ease-in-out;
+    float: right;
 }
 
 .custom-navbar .nav li a:hover {
     background: transparent;
     color: #E3AE57;
+    font-weight: bold;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
 .custom-navbar .navbar-nav > li > a:focus {
   background-color: transparent;
+  font-weight: bold;
 }
 
 .custom-navbar .nav li.active > a {
     background-color: transparent;
     color: #E3AE57;
+    font-weight: bold;
 }
 
 .custom-navbar .navbar-toggle {
@@ -527,6 +531,12 @@ a:hover, a:active, a:focus {
 
 #quotes p {
   padding-top: 32px;
+}
+#quotes .contact ul li
+{
+ list-style: none;
+display: inline;
+padding: 0 20px 0 20px;
 }
 
 
