@@ -282,16 +282,16 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .navbar-brand {
     color: #333;
-  text-shadow: 1px 1px #fff;
+    text-shadow: 1px 1px #fff;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 220px;
     line-height: 35px;
     letter-spacing: 1px;
 }
 
 .custom-navbar .nav li a {
     color: #333;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
